@@ -10,8 +10,18 @@
   	<description></description>
   	<servlet-class>com.blogcice.servlet.AgragarNoticia</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>MostrarNoticias</servlet-name>
+  	<display-name>MostrarNoticias</display-name>
+  	<description></description>
+  	<servlet-class>com.blogcice.servlet.MostrarNoticias</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>AgragarNoticia</servlet-name>
   	<url-pattern>/AgragarNoticia</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MostrarNoticias</servlet-name>
+  	<url-pattern>/MostrarNoticias</url-pattern>
   </servlet-mapping>
 </web-app>
