@@ -8,5 +8,12 @@
 </head>
 <body>
 
+<form action = "AgregarNoticia" method="post">
+  TITULO:<input type="text" title="titulo"><br/>
+  NOTICIA:<input type="text" news="noticia"><br/>
+  <input type="submit" value="Guardar">
+
+</form>
+
 </body>
 </html>
